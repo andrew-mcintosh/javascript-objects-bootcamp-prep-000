@@ -1,5 +1,5 @@
 function removeFromPlaylist(playlist, artistName) {
-  delete artistName;
+  delete ({ Kanye: "Gold Digger" }, "Kanye");
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
